@@ -1,0 +1,22 @@
+body {
+  background:#111;
+  color:#eee;
+  font-family:Arial, sans-serif;
+  text-align:center;
+}
+#evidence button {
+  margin:6px;
+  padding:12px;
+  font-size:18px;
+}
+#ghosts {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:20px;
+}
+.ghost {
+  padding:10px;
+  border:1px solid #555;
+}
+.hidden {opacity:0.2}
