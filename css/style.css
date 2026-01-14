@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: url('../img/background.jpg') center/cover no-repeat fixed;
+  color: #f5e17a;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
+}
+
+.nav a {
+  color: #f5c542;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.hero {
+  margin-top: 120px;
+}
+
+.subtitle {
+  font-size: 28px;
+  color: #b6ff7a;
+}
+
+.title {
+  font-size: 72px;
+  margin-top: 20px;
+}
+
+.kontakt {
+  margin-top: 200px;
+  padding: 60px;
+  background: rgba(0,0,0,0.6);
+}
