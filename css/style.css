@@ -1,36 +1,55 @@
+/* ===============================
+   BASIS – STARTSEITE (FIXIERT)
+   NICHT ÄNDERN
+================================ */
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: url("../img/background.jpg") no-repeat center center fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eee;
+  text-align: center;
+
+  background-image: url("../img/background.jpg");
   background-size: cover;
-  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.top-nav {
-  text-align: center;
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  background: rgba(0, 0, 0, 0.6);
   padding: 20px;
 }
 
-.top-nav a {
-  color: gold;
-  margin: 0 15px;
+.nav a {
+  color: #f5c542;
   text-decoration: none;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
+/* Hero-Bereich */
 .hero {
-  text-align: center;
-  margin-top: 25vh;
+  margin-top: 160px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Grüner Beschreibungstext */
 .description {
-  color: #9aff6a;
-  font-size: 26px;
-  max-width: 900px;
-  margin: 0 auto 30px auto;
+  color: #9cff9c;
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 40px;
 }
 
+/* Gelber Titel */
 .title {
-  color: gold;
-  font-size: 64px;
+  color: #f5c542;
+  font-size: 72px;
+  margin: 0;
 }
